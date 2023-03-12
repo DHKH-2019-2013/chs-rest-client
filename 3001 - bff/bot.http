@@ -1,0 +1,5 @@
+###
+GET http://localhost:3001/move
+    ?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+    &move=e4
+    &int=10

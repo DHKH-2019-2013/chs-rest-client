@@ -1,0 +1,8 @@
+###
+GET http://localhost:3002/initialize-chess-board
+
+###
+GET http://localhost:3002/move
+    ?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
+    &move=e4
+    &int=10
