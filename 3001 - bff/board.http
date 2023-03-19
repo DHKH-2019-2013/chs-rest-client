@@ -1,2 +1,2 @@
 ###
-GET http://localhost:3001/intialize-chess-board
+GET http://localhost:3001/initialize-chess-board

@@ -1,5 +1,16 @@
 ###
 GET http://localhost:3001/move
+    ?fen=rnbqk1nr/pppp1ppp/8/8/1bPp4/4P3/PP3PPP/RNBQKBNR w KQkq - 1 4
+    &move=e3d4
+    &int=15
+
+### swap King and Rider
+GET http://localhost:3001/move
+    ?fen=rnbqk2r/pp1pppbp/5np1/1Bp5/5P2/4PN2/PPPP2PP/RNBQK2R w KQkq - 4 5
+    &move=f3e5
+    &int=15
+
+###
+GET http://localhost:3001/check-valid-move
     ?fen=rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
-    &move=e4
-    &int=10
+    &move=e2e4
